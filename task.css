@@ -1,0 +1,48 @@
+ *
+ {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+ }
+ .main
+ {
+   width:100%;
+   height:100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .one
+ {
+   width:350px;
+   height:400px;
+   background-color: cadetblue;
+   border-radius:18px;
+   position:relative;
+   text-align: center;
+ }
+ input{
+   /* display:none; */
+ }
+ .two
+ {
+   width:100px;
+   height:150px;
+   background-color: darkslategrey;
+   border-radius: 10px;
+   position:absolute;
+   bottom:130px;
+   display:none;
+ }
+.main 
+
+
+input:checked~.two {
+   display:block;
+   background-color: brown;
+ }
+ img{
+   width:150px;
+   height:150px;
+   border-radius:50%;
+ }
